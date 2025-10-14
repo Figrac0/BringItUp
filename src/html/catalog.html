@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Каталог - BringItUp</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Каталог курсов</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="main.html">BringItUp</a></li>
+                    <li><a href="about-product.html">О товаре</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Курсы в нашем каталоге</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Цена</th>
+                            <th>Описание</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Программирование для начинающих</td>
+                            <td>1000 руб.</td>
+                            <td>Курс по основам программирования.</td>
+                        </tr>
+                        <tr>
+                            <td>Веб-разработка</td>
+                            <td>2000 руб.</td>
+                            <td>Курс по созданию сайтов.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Добавить новый курса по программированию</h2>
+                <form>
+                    <label for="product-name">Название курса:</label>
+                    <input type="text" id="product-name" name="product-name" />
+
+                    <label for="product-price">Цена:</label>
+                    <input
+                        type="text"
+                        id="product-price"
+                        name="product-price"
+                    />
+
+                    <label for="product-description">Описание:</label>
+                    <textarea
+                        id="product-description"
+                        name="product-description"
+                    ></textarea>
+
+                    <button type="submit">Добавить</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 BringItUp. Все права защищены.</p>
+        </footer>
+    </body>
+</html>
